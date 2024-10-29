@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Dosis:wght@200..800&family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
+
 <body class="bg-[#F6E5DA] m-0">
 
-    <nav class="justify-between items-center font-semibold px-9 hidden sm:flex">
-        <div id="navImg"><img src="OIP__1_-removebg-preview.png" alt="Logo" class="max-w-36 flex-grow-2"></div>
+    <nav class="justify-between items-center font-semibold px-9 flex">
+        <div id="navImg"><img src="images\OIP__1_-removebg-preview.png" alt="Logo" class="max-w-36 flex-grow-2"></div>
         <div id="navList" class="flex-grow-1">
             <ul class="flex gap-8 tracking-widest items-center">
-                <li><span class="font-bold">HOME</span></li>
+                <li><span class="font-bold text-xl">HOME</span></li>
                 <li>PRODUCT</li>
                 <li>ABOUT</li>
                 <li>CONTACT</li>
@@ -22,6 +30,25 @@
             <div id="circle" class="w-[15vw] h-[15vw] -mr-[20vw] -mt-[20vh] bg-white rounded-full"></div>
             <div id="1800" class="tracking-widest -mt-6 font-bold text-lg">1800 888 555</div>
         </div>
-    </nav>    
+    </nav>
+    <div id="main" class="flex items-center -mt-[5vh] justify-center sm:justify-start w-[100vw] px-[2vw]">
+        <div id="left"><img src="images\cover-image1-927x1024.png.bv_resized_ipad.png.bv.webp" alt="Women" class="w-[45vw] object-cover hidden sm:block" style="flex-grow:3;"></div>
+        <div id="right" class="flex flex-col items-end w-full flex-1 px-[2vw]">
+            <div class="font-[Montserrat] text-[2.4vw] font-extralight">NEW ARRIVALS</div>            
+            <div class="font-[Montserrat] font-black text-[10vw] tracking-widest leading-none text-right">JUST<br>FOR</div>
+            <div class="font-[Calligraffitti] text-orange-400 font-black text-[6vw] -translate-y-[5vw] -rotate-[30deg] -translate-x-[4.6vw]">YOU</div>
+            <div class="flex">
+                <div class="bg-black text-white text-right text-[2.8vw] font-bold leading-none py-4 pl-8 tracking-wider pr-2">FOR ONLINE <br> <span class="font-semibold text-[2vw]">ORDER</span></div>
+                <div class="bg-[#ffcdab] text-[3vw] font-bold pr-3 pl-2 leading-none py-3">30%<br>OFF</div>
+            </div>
+            <div id="socialHandles" class="flex gap-[1vw]">
+                <img src="images\icons8-facebook-30.png" alt="">
+                <img src="images\icons8-instagram-30.png" alt="">
+                <img src="images\icons8-twitterx-30.png" alt="">
+                <img src="images\icons8-whatsapp-30.png" alt="">
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

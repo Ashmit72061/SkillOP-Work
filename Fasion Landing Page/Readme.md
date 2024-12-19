@@ -1,6 +1,6 @@
-# FashionWebsite
+# Fashion Store
 
-Welcome to FashionWebsite, your destination for the latest fashion trends and stylish looks.
+Welcome to Fashion Store, your destination for the latest fashion trends and stylish looks.
 
 ## Features
 - Responsive design for optimal viewing on all devices
@@ -21,3 +21,4 @@ Welcome to FashionWebsite, your destination for the latest fashion trends and st
    cd SkillOP-Work
 ---
 ![](Final.png)
+![](FinalPhone.png)

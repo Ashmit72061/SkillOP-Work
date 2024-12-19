@@ -21,8 +21,8 @@
 <body class="bg-[#F6E5DA] m-0">
 
     <nav class="justify-between items-center font-semibold px-9 flex gap-[2vw]">
-        <div id="navImg"><img src="images\OIP__1_-removebg-preview.png" alt="Logo" class="max-w-36 flex-grow-2"></div>
-        <div id="navList" class="flex-grow-1">
+        <div id="navImg" class="hidden sm:block"><img src="images\OIP__1_-removebg-preview.png" alt="Logo" class="max-w-36 flex-grow-2"></div>
+        <div id="navList" class="hidden sm:block flex-grow-1">
             <ul class="flex gap-8 tracking-widest items-center">
                 <li><span class="font-bold text-xl">HOME</span></li>
                 <li>PRODUCT</li>
@@ -31,11 +31,23 @@
             </ul>
         </div>
         <div id="contact">
-            <!-- <div id="circle" class="w-[15vw] h-[15vw] -translate-y-16 translate-x-20 bg-white rounded-full"></div> -->
-            <div id="1800" class="tracking-widest font-bold bg-white rounded-full p-[1vw] text-lg">1800 888 555</div>
+            <div id="1800" class="hidden sm:block tracking-widest font-bold bg-white rounded-full p-[1vw] text-lg">1800 888 555</div>
         </div>
     </nav>
-    <div id="main" class="flex items-center -mt-[5vh] sm:justify-start w-[100vw] px-[2vw]">
+
+    <div class="bg-white fixed w-full ">
+        <div class=""><img src="images\OIP__1_-removebg-preview.png" alt="Logo" class="max-w-36 flex-grow-2 mx-auto"></div>
+        <div id="navList" class="sm:hidden block flex-grow-1 bg-white w-full px-4 py-4 fixed">
+            <ul class="flex gap-8 tracking-widest items-center">
+                <li><span class="font-bold text-xl">HOME</span></li>
+                <li>PRODUCT</li>
+                <li>ABOUT</li>
+                <li>CONTACT</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="main" class="flex items-center sm:-mt-[5vh] sm:justify-start w-[100vw] px-[2vw] mt-[22vh]">
 
         <!-- Left Img -->
         <div id="left" class="hidden sm:block"><img src="images\cover-image1-927x1024.png.bv_resized_ipad.png.bv.webp"
